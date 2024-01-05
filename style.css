@@ -1,0 +1,30 @@
+body
+{
+  margin: 0px;
+  padding:0px;
+  background-image: url("bck.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden; 
+}
+.loginform
+{
+  background-color: azure;
+  width: 30%;
+  height: auto;
+  margin: 7% auto;
+  padding: 25px 1opx;
+  border-style: inset;
+  border-color: blue;
+}
+/*responsive Css*/
+@media  screen and (max-width:600px) 
+{
+    .loginform
+{
+    width: 90%;
+    margin: 35% auto;
+}
+}
